@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/stylus.css" type="text/css" /> <!-- Quité el src y el href duplicado -->
+    <title>Consultorio</title>
+</head>
+
+<body>
+    <div class="container">
+        <!--Doctores-->
+        <form id="frmDoctores">
+            
+            <h2>Registrar Doctor</h2>
+            <hr>
+            <div>
+                <img src="Imagenes/persona.png" alt="" />
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" />
+                <br>
+                <label for="apellido">Apellido:</label>
+                <input type="text" id="apellido" name="apellido" />
+                <br>
+                <label for="cedula">Documento de Identidad No:</label>
+                <input type="number" id="cedula" name="identidad" />
+                <br>
+                <label for="consultorio">Consultorio:</label> <!-- Corregí el id aquí -->
+                <input type="number" id="consultorio" name="consultorio" />
+                <br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" />
+                <br>
+                <label>Especialidades médicas:</label>
+                <select name="especialidad" id="especialidad" required>
+                    <option value="medicinaGeneral">Medicina General</option>
+                    <option value="Cardiología">Cardiología</option>
+                    <option value="medicinaInterna">Medicina interna</option>
+                    <option value="dermatología">Dermatología</option>
+                    <option value="rehabilitacionFisica">Rehabilitación física</option>
+                    <option value="psicologia">Psicología</option>
+                    <option value="odontologia">Odontología</option>
+                    <option value="radiologia">Radiología</option>
+                </select>
+            </div>
+            <button id="btnSubmitDr" type="submit">Registrar Doctor</button>
+        </form>
+
+        <div>
+            Listado doctores
+            <div id="listadoDoctores"></div>
+        </div>
+    </div>
+    <script src="../js/doctores.js"></script>
+</body>
+
+</html>

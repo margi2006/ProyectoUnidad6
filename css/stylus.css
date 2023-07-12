@@ -1,0 +1,102 @@
+body {
+  box-shadow: 22px 25px 40px #9c8a24;
+  /*display: inline-block;*/
+}
+
+img {
+  width: 50px ;
+  height: 80px;
+  display: inline;
+}
+
+div {
+  border-radius: 30px;
+}
+
+.container {
+  background: #c0c0aa;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #caf5f8, #c0c0aa);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, hsl(202, 78%, 91%), #c0c0aa);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  height: 95vh;
+  display: flex;
+  border-radius: 5px;
+  gap: 30px;
+}
+
+.container div,
+.container label {
+  border-radius: 10px;
+  padding: 1em;
+  width: 35vh;
+  gap: 10px;
+}
+
+button {
+  border-bottom: solid 3px #aba9b8;
+  margin: 5px 5px 15px;
+  padding: 10px;
+  border-top-left-radius: 3em;
+  border-top-right-radius: 3em;
+  border-bottom-left-radius: 3em;
+  border-bottom-right-radius: 3em;
+}
+
+table {
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: 0.9em;
+  font-family: sans-serif;
+  min-width: 400px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  border-radius: 10px 10px 0 0;
+  overflow: hidden;
+}
+
+table thead tr {
+  background-color: #009879;
+  color: #ffffff;
+  text-align: left;
+}
+
+table th,
+table td {
+    padding: 12px 15px;
+}
+
+table tbody tr {
+  border-bottom: 1px solid #dddddd;
+}
+
+table tbody tr:nth-of-type(even) {
+  background-color: #f3f3f3;
+}
+
+table tbody tr:last-of-type {
+  border-bottom: 2px solid #009879;
+}
+
+table tbody tr.active-row {
+  font-weight: bold;
+  color: #009879;
+}
+
+span {
+  text-align: center;
+  padding: 60%;
+  top: 100px;
+  right: 375px;
+  position: absolute;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+textarea,
+fieldset {
+  width: 100%;
+  border: 1px solid #aba9b8;
+  box-sizing: border-box;
+}

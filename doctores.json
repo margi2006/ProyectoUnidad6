@@ -1,0 +1,42 @@
+[
+	{
+		"nombre": "Marcos",
+		"apellido": "Duran",
+		"cedula": "123445",
+		"consultorio": "1",
+		"email": "margi2006@gmail.com",
+		"especialidad": "medicinaGeneral"
+	},
+	{
+		"nombre": "Teresa",
+		"apellido": "Mendieta",
+		"cedula": "8909",
+		"consultorio": "3",
+		"email": "tere@micorreo.com",
+		"especialidad": "dermatología"
+	},
+	{
+		"nombre": "Luis Carlos",
+		"apellido": "Ortega",
+		"cedula": "9035",
+		"consultorio": "4",
+		"email": "luisCarlos@micorreo.com",
+		"especialidad": "medicinaInterna"
+	},
+	{
+		"nombre": "Shirley",
+		"apellido": "Nuñez",
+		"cedula": "8567",
+		"consultorio": "5",
+		"email": "shirley@micorreo.com",
+		"especialidad": "psicologia"
+	},
+	{
+		"nombre": "Nicolas",
+		"apellido": "Tesla",
+		"cedula": "123",
+		"consultorio": "6",
+		"email": "nico@micorreo.com",
+		"especialidad": "psicologia"
+	}
+]

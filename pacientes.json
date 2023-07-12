@@ -1,0 +1,34 @@
+[
+	{
+		"nombre": "Jeffrey",
+		"apellido": "Munoz",
+		"cedula": "678",
+		"edad": "34",
+		"telefono": "34566",
+		"especialidad": "Cardiología"
+	},
+	{
+		"nombre": "Sofia",
+		"apellido": "Ramirez",
+		"cedula": "4567",
+		"edad": "12",
+		"telefono": "678",
+		"especialidad": "odontologia"
+	},
+	{
+		"nombre": "Haniel",
+		"apellido": "Daza",
+		"cedula": "9867",
+		"edad": "9",
+		"telefono": "3204",
+		"especialidad": "rehabilitacionFisica"
+	},
+	{
+		"nombre": "Juanita Maria",
+		"apellido": "Mendoza",
+		"cedula": "3456",
+		"edad": "12",
+		"telefono": "4567",
+		"especialidad": "radiologia"
+	}
+]

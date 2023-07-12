@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../css/stylus.css" type="text/css" /> <!-- Quité el src y el href duplicado -->
+  <title>Consultorio</title>
+</head>
+
+<body>
+  <div class="container">
+    <!--Pacientes-->
+    <form id="frmPacientes">
+      <h2>Registro Pacientes</h2>
+      <hr>
+      <div>
+        <label for="nombre_U">Nombre:</label>
+        <input type="text" id="nombre_U" name="nombre"/>
+        <br>
+        <label for="apellido_U">Apellido:</label>
+        <input type="text" id="apellido_U" name="apellido"/>
+        <br>
+        <label for="cedula_U">Documento de Identidad No:</label>
+        <input type="number" id="cedula_U" name="identidad"/>
+        <br>
+        <label for="edad">Edad:</label> <!-- Corregí el id aquí -->
+        <input type="number" id="edad_U" name="edad"/>
+        <br>
+        <label for="telefono">Teléfono:</label>
+        <input type="text" id="telefono_U" name="telefono"/>
+        <br>
+        <label>Especialidades médicas:</label>
+        <select name="especialidad_U" id="especialidad_U">
+          <option value="MedicinaGeneral">Medicina General</option>
+          <option value="Cardiología">Cardiología</option>
+          <option value="MedicinaInterna">Medicina interna</option>
+          <option value="Dermatología">Dermatología</option>
+          <option value="RehabilitacionFisica">Rehabilitación física</option>
+          <option value="Psicologia">Psicología</option>
+          <option value="Odontologia">Odontología</option>
+          <option value="Radiologia">Radiología</option>
+        </select>
+        <br>
+      </div>
+      <button id="btnSubmitPa" type="submit">Registro Pacientes</button>
+    </form>
+    
+    <div>
+      Listado pacientes
+      <div id="listadoPacientes"></div>
+    </div>
+  </div>
+  <script src="../js/pacientes.js"></script>
+</body>
+
+</html>
